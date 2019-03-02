@@ -5,6 +5,7 @@ import matrix.Matrix;
 import matrix.MatrixClass;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 public class LastFullyLayer {
@@ -80,6 +81,7 @@ public class LastFullyLayer {
 
     ;
 
+
     public List<Double> apply(List<Double> input) {
         //128
         //add bias -> 128+1
@@ -92,9 +94,9 @@ public class LastFullyLayer {
 
     void seedCoefficients() {
         //random values in [-0.5 0.5]
-    }
 
-    ;
+    };
+
 
 
 }
